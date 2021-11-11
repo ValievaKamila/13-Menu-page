@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 86px;
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: #808080;
+
+    transition: width 1s;
+
+    color: white;
+}
+
+nav:hover {
+    width: 216.52px;
+}
+
+h4 {
+    padding: 30px 25px;
+    font-weight:normal;
+}
+
+main {
+    padding: 30px 30px 0 160px;
+    height: 100%;
+    background-color: rgb(228, 226, 226);
+}
+
+h1 {
+    padding: 30px 0;
+}
+
+#nav-menu {
+    width: fit-content;
+    list-style-type: none;
+}
+
+#nav-menu a {
+    display: block;
+    padding: 30px 55px;
+    padding-left: 85px;
+    
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 15px 13px;
+
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+#nav-menu a:hover {
+    background-color: #5e5e5e;
+}
+
+#edit {
+    background-image: url('icons/edit.png');
+}
+
+#favorites{
+    background-image: url('icons/favorites.png');
+}
+
+#history{
+    background-image: url('icons/history.png');
+}
+
+#security{
+    background-image: url('icons/security.png');
+}
+
+#settings{
+    background-image: url('icons/settings.png');
+}
